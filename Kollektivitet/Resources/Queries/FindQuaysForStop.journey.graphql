@@ -1,0 +1,23 @@
+fragment QuayInfo on Quay {
+    id
+    description
+    publicCode
+    lines {
+        publicCode
+    }
+    stopPlace {
+        id
+        transportMode
+        name
+    }
+}
+
+query StopInformation($stopId: String!) {
+    stopPlace(id: $stopId) {
+        name
+        id
+        quays {
+            ...QuayInfo
+        }
+    }
+}

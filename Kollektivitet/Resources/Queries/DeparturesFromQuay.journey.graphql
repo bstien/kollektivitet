@@ -1,0 +1,28 @@
+fragment Departure on EstimatedCall {
+    expectedArrivalTime
+    aimedArrivalTime
+    destinationDisplay {
+        frontText
+    }
+    serviceJourney {
+        line {
+            transportMode
+            publicCode
+        }
+    }
+}
+
+query Departures($from: String!, $when: DateTime!) {
+    quay(id: $from) {
+        id
+        description
+        name
+        stopPlace {
+            id
+            name
+        }
+        estimatedCalls(startTime: $when, numberOfDepartures: 30) {
+            ...Departure
+        }
+    }
+}

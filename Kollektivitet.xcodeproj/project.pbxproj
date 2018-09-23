@@ -7,19 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		33AC20006724A2B14B5DB6A2 /* Pods_Kollektivitet_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E775DDA74FFD5440FED6FE52 /* Pods_Kollektivitet_WatchKit_Extension.framework */; };
+		821F7D552157A8E600D8B332 /* DeparturesListInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821F7D542157A8E600D8B332 /* DeparturesListInterfaceController.swift */; };
+		821F7D572157A92800D8B332 /* DepartureRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821F7D562157A92800D8B332 /* DepartureRow.swift */; };
+		821F7D592157AA1C00D8B332 /* DeparturesFromQuay.journey.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 821F7D582157AA1C00D8B332 /* DeparturesFromQuay.journey.graphql */; };
+		821F7D5F2157AB0000D8B332 /* DateFormatter+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821F7D5B2157AB0000D8B332 /* DateFormatter+Extensions.swift */; };
+		821F7D602157AB0000D8B332 /* DateFormatter+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821F7D5B2157AB0000D8B332 /* DateFormatter+Extensions.swift */; };
+		821F7D612157AB0000D8B332 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821F7D5C2157AB0000D8B332 /* String+Extensions.swift */; };
+		821F7D622157AB0000D8B332 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821F7D5C2157AB0000D8B332 /* String+Extensions.swift */; };
+		821F7D632157AB0000D8B332 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821F7D5D2157AB0000D8B332 /* UIColor+Extensions.swift */; };
+		821F7D642157AB0000D8B332 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821F7D5D2157AB0000D8B332 /* UIColor+Extensions.swift */; };
+		821F7D652157AB0000D8B332 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821F7D5E2157AB0000D8B332 /* Date+Extensions.swift */; };
+		821F7D662157AB0000D8B332 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821F7D5E2157AB0000D8B332 /* Date+Extensions.swift */; };
+		821F7D682157AB4100D8B332 /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821F7D672157AB4100D8B332 /* Style.swift */; };
+		821F7D692157AB4100D8B332 /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821F7D672157AB4100D8B332 /* Style.swift */; };
+		821F7D6C2157ACF200D8B332 /* DepartureService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821F7D6B2157ACF200D8B332 /* DepartureService.swift */; };
 		823B88142153F1C600F53670 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823B88132153F1C600F53670 /* AppDelegate.swift */; };
-		823B88162153F1C600F53670 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823B88152153F1C600F53670 /* ViewController.swift */; };
-		823B88192153F1C600F53670 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 823B88172153F1C600F53670 /* Main.storyboard */; };
 		823B881B2153F1C800F53670 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 823B881A2153F1C800F53670 /* Assets.xcassets */; };
 		823B881E2153F1C800F53670 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 823B881C2153F1C800F53670 /* LaunchScreen.storyboard */; };
 		823B88232153F1C800F53670 /* Kollektivitet WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 823B88222153F1C800F53670 /* Kollektivitet WatchKit App.app */; };
 		823B88292153F1C800F53670 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 823B88272153F1C800F53670 /* Interface.storyboard */; };
 		823B882B2153F1C900F53670 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 823B882A2153F1C900F53670 /* Assets.xcassets */; };
 		823B88322153F1C900F53670 /* Kollektivitet WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 823B88312153F1C900F53670 /* Kollektivitet WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		823B88372153F1C900F53670 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823B88362153F1C900F53670 /* InterfaceController.swift */; };
 		823B88392153F1C900F53670 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823B88382153F1C900F53670 /* ExtensionDelegate.swift */; };
 		823B883B2153F1C900F53670 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823B883A2153F1C900F53670 /* ComplicationController.swift */; };
 		823B883D2153F1C900F53670 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 823B883C2153F1C900F53670 /* Assets.xcassets */; };
+		823B88502153F64900F53670 /* FindQuaysForStop.journey.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 823B884E2153F64900F53670 /* FindQuaysForStop.journey.graphql */; };
+		823B88512153F64900F53670 /* SearchForStops.stop_place.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 823B884F2153F64900F53670 /* SearchForStops.stop_place.graphql */; };
+		823B885C2153F77700F53670 /* JourneyPlannerAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823B885A2153F77700F53670 /* JourneyPlannerAPI.swift */; };
+		823B885D2153F77700F53670 /* JourneyPlannerAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823B885A2153F77700F53670 /* JourneyPlannerAPI.swift */; };
+		823B885E2153F77700F53670 /* StopPlaceAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823B885B2153F77700F53670 /* StopPlaceAPI.swift */; };
+		823B885F2153F77700F53670 /* StopPlaceAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823B885B2153F77700F53670 /* StopPlaceAPI.swift */; };
+		823B88612153F86F00F53670 /* DepartureLocationChooserInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823B88602153F86F00F53670 /* DepartureLocationChooserInterfaceController.swift */; };
+		823B88642153F9D300F53670 /* DepartureLocationRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823B88632153F9D300F53670 /* DepartureLocationRow.swift */; };
+		9942416C53DE523D4171C868 /* Pods_Kollektivitet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D2BCFD80830054C5EC70EE0 /* Pods_Kollektivitet.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,10 +86,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		821F7D542157A8E600D8B332 /* DeparturesListInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeparturesListInterfaceController.swift; sourceTree = "<group>"; };
+		821F7D562157A92800D8B332 /* DepartureRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartureRow.swift; sourceTree = "<group>"; };
+		821F7D582157AA1C00D8B332 /* DeparturesFromQuay.journey.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = DeparturesFromQuay.journey.graphql; sourceTree = "<group>"; };
+		821F7D5B2157AB0000D8B332 /* DateFormatter+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Extensions.swift"; sourceTree = "<group>"; };
+		821F7D5C2157AB0000D8B332 /* String+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		821F7D5D2157AB0000D8B332 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		821F7D5E2157AB0000D8B332 /* Date+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		821F7D672157AB4100D8B332 /* Style.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
+		821F7D6B2157ACF200D8B332 /* DepartureService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartureService.swift; sourceTree = "<group>"; };
 		823B88102153F1C600F53670 /* Kollektivitet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kollektivitet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		823B88132153F1C600F53670 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		823B88152153F1C600F53670 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		823B88182153F1C600F53670 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		823B881A2153F1C800F53670 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		823B881D2153F1C800F53670 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		823B881F2153F1C800F53670 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -77,11 +105,22 @@
 		823B882A2153F1C900F53670 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		823B882C2153F1C900F53670 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		823B88312153F1C900F53670 /* Kollektivitet WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Kollektivitet WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		823B88362153F1C900F53670 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
 		823B88382153F1C900F53670 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		823B883A2153F1C900F53670 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
 		823B883C2153F1C900F53670 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		823B883E2153F1C900F53670 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		823B884E2153F64900F53670 /* FindQuaysForStop.journey.graphql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FindQuaysForStop.journey.graphql; sourceTree = "<group>"; };
+		823B884F2153F64900F53670 /* SearchForStops.stop_place.graphql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SearchForStops.stop_place.graphql; sourceTree = "<group>"; };
+		823B885A2153F77700F53670 /* JourneyPlannerAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JourneyPlannerAPI.swift; sourceTree = "<group>"; };
+		823B885B2153F77700F53670 /* StopPlaceAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StopPlaceAPI.swift; sourceTree = "<group>"; };
+		823B88602153F86F00F53670 /* DepartureLocationChooserInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartureLocationChooserInterfaceController.swift; sourceTree = "<group>"; };
+		823B88632153F9D300F53670 /* DepartureLocationRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartureLocationRow.swift; sourceTree = "<group>"; };
+		88D27697D626D62FFD0EA636 /* Pods-Kollektivitet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kollektivitet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kollektivitet/Pods-Kollektivitet.debug.xcconfig"; sourceTree = "<group>"; };
+		9D2BCFD80830054C5EC70EE0 /* Pods_Kollektivitet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kollektivitet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A715774D557D36978AC70D14 /* Pods-Kollektivitet WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kollektivitet WatchKit Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kollektivitet WatchKit Extension/Pods-Kollektivitet WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		B1D638523CFB384E6D0251D2 /* Pods-Kollektivitet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kollektivitet.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kollektivitet/Pods-Kollektivitet.release.xcconfig"; sourceTree = "<group>"; };
+		DEBC0E4BD8A6157CC25CAE7F /* Pods-Kollektivitet WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kollektivitet WatchKit Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kollektivitet WatchKit Extension/Pods-Kollektivitet WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
+		E775DDA74FFD5440FED6FE52 /* Pods_Kollektivitet_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kollektivitet_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,10 +128,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9942416C53DE523D4171C868 /* Pods_Kollektivitet.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		823B882E2153F1C900F53670 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33AC20006724A2B14B5DB6A2 /* Pods_Kollektivitet_WatchKit_Extension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF43D80D3577FFD247D9319C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -102,6 +150,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		821F7D5A2157AB0000D8B332 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				821F7D5B2157AB0000D8B332 /* DateFormatter+Extensions.swift */,
+				821F7D5C2157AB0000D8B332 /* String+Extensions.swift */,
+				821F7D5D2157AB0000D8B332 /* UIColor+Extensions.swift */,
+				821F7D5E2157AB0000D8B332 /* Date+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		821F7D6A2157ACDA00D8B332 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				821F7D6B2157ACF200D8B332 /* DepartureService.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		821F7D6D2157B01D00D8B332 /* Interface Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				823B88602153F86F00F53670 /* DepartureLocationChooserInterfaceController.swift */,
+				821F7D542157A8E600D8B332 /* DeparturesListInterfaceController.swift */,
+			);
+			path = "Interface Controllers";
+			sourceTree = "<group>";
+		};
 		823B88072153F1C600F53670 = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +185,8 @@
 				823B88262153F1C800F53670 /* Kollektivitet WatchKit App */,
 				823B88352153F1C900F53670 /* Kollektivitet WatchKit Extension */,
 				823B88112153F1C600F53670 /* Products */,
+				D9794BB72B20006CD55CE664 /* Pods */,
+				ADE2507344E65E2785135C83 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,9 +203,11 @@
 		823B88122153F1C600F53670 /* Kollektivitet */ = {
 			isa = PBXGroup;
 			children = (
+				821F7D5A2157AB0000D8B332 /* Extensions */,
+				823B88592153F75D00F53670 /* API */,
+				823B884C2153F61F00F53670 /* Resources */,
 				823B88132153F1C600F53670 /* AppDelegate.swift */,
-				823B88152153F1C600F53670 /* ViewController.swift */,
-				823B88172153F1C600F53670 /* Main.storyboard */,
+				821F7D672157AB4100D8B332 /* Style.swift */,
 				823B881A2153F1C800F53670 /* Assets.xcassets */,
 				823B881C2153F1C800F53670 /* LaunchScreen.storyboard */,
 				823B881F2153F1C800F53670 /* Info.plist */,
@@ -148,13 +228,71 @@
 		823B88352153F1C900F53670 /* Kollektivitet WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				823B88362153F1C900F53670 /* InterfaceController.swift */,
+				821F7D6D2157B01D00D8B332 /* Interface Controllers */,
+				821F7D6A2157ACDA00D8B332 /* Model */,
+				823B88622153F9BF00F53670 /* Views */,
 				823B88382153F1C900F53670 /* ExtensionDelegate.swift */,
 				823B883A2153F1C900F53670 /* ComplicationController.swift */,
 				823B883C2153F1C900F53670 /* Assets.xcassets */,
 				823B883E2153F1C900F53670 /* Info.plist */,
 			);
 			path = "Kollektivitet WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		823B884C2153F61F00F53670 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				823B884D2153F62D00F53670 /* Queries */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		823B884D2153F62D00F53670 /* Queries */ = {
+			isa = PBXGroup;
+			children = (
+				823B884E2153F64900F53670 /* FindQuaysForStop.journey.graphql */,
+				823B884F2153F64900F53670 /* SearchForStops.stop_place.graphql */,
+				821F7D582157AA1C00D8B332 /* DeparturesFromQuay.journey.graphql */,
+			);
+			path = Queries;
+			sourceTree = "<group>";
+		};
+		823B88592153F75D00F53670 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				823B885A2153F77700F53670 /* JourneyPlannerAPI.swift */,
+				823B885B2153F77700F53670 /* StopPlaceAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		823B88622153F9BF00F53670 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				823B88632153F9D300F53670 /* DepartureLocationRow.swift */,
+				821F7D562157A92800D8B332 /* DepartureRow.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ADE2507344E65E2785135C83 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D2BCFD80830054C5EC70EE0 /* Pods_Kollektivitet.framework */,
+				E775DDA74FFD5440FED6FE52 /* Pods_Kollektivitet_WatchKit_Extension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9794BB72B20006CD55CE664 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88D27697D626D62FFD0EA636 /* Pods-Kollektivitet.debug.xcconfig */,
+				B1D638523CFB384E6D0251D2 /* Pods-Kollektivitet.release.xcconfig */,
+				A715774D557D36978AC70D14 /* Pods-Kollektivitet WatchKit Extension.debug.xcconfig */,
+				DEBC0E4BD8A6157CC25CAE7F /* Pods-Kollektivitet WatchKit Extension.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,10 +302,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 823B88492153F1C900F53670 /* Build configuration list for PBXNativeTarget "Kollektivitet" */;
 			buildPhases = (
+				01674298E7A238E6DA6E93C1 /* [CP] Check Pods Manifest.lock */,
 				823B880C2153F1C600F53670 /* Sources */,
 				823B880D2153F1C600F53670 /* Frameworks */,
 				823B880E2153F1C600F53670 /* Resources */,
 				823B88482153F1C900F53670 /* Embed Watch Content */,
+				AC1A4552F8AB4E21EA2EFCBE /* [CP] Embed Pods Frameworks */,
+				823B88582153F6B700F53670 /* Generate Apollo Schemas */,
 			);
 			buildRules = (
 			);
@@ -185,6 +326,7 @@
 			buildPhases = (
 				823B88202153F1C800F53670 /* Resources */,
 				823B88442153F1C900F53670 /* Embed App Extensions */,
+				DF43D80D3577FFD247D9319C /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -200,9 +342,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 823B88412153F1C900F53670 /* Build configuration list for PBXNativeTarget "Kollektivitet WatchKit Extension" */;
 			buildPhases = (
+				CED78846B4705375EA523F85 /* [CP] Check Pods Manifest.lock */,
 				823B882D2153F1C900F53670 /* Sources */,
 				823B882E2153F1C900F53670 /* Frameworks */,
 				823B882F2153F1C900F53670 /* Resources */,
+				C48AE8D4B3343626A510627D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -259,9 +403,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				823B88512153F64900F53670 /* SearchForStops.stop_place.graphql in Resources */,
 				823B881E2153F1C800F53670 /* LaunchScreen.storyboard in Resources */,
 				823B881B2153F1C800F53670 /* Assets.xcassets in Resources */,
-				823B88192153F1C600F53670 /* Main.storyboard in Resources */,
+				821F7D592157AA1C00D8B332 /* DeparturesFromQuay.journey.graphql in Resources */,
+				823B88502153F64900F53670 /* FindQuaysForStop.journey.graphql in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,13 +430,112 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		01674298E7A238E6DA6E93C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kollektivitet-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		823B88582153F6B700F53670 /* Generate Apollo Schemas */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Generate Apollo Schemas";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "APOLLO_FRAMEWORK_PATH=\"$(eval find $FRAMEWORK_SEARCH_PATHS -name \"Apollo.framework\" -maxdepth 1)\"\n\nif [ -z \"$APOLLO_FRAMEWORK_PATH\" ]; then\necho \"error: Couldn't find Apollo.framework in FRAMEWORK_SEARCH_PATHS; make sure to add the framework to your project.\"\nexit 1\nfi\n\ncd \"${SRCROOT}/${TARGET_NAME}\"\napollo codegen:generate --queries=\"$(find ./Resources/Queries -name '*.journey.graphql')\" --schema=../journey_planner_schema.json API/JourneyPlannerAPI.swift\napollo codegen:generate --queries=\"$(find ./Resources/Queries -name '*.stop_place.graphql')\" --schema=../stop_place_schema.json API/StopPlaceAPI.swift\n";
+		};
+		AC1A4552F8AB4E21EA2EFCBE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Kollektivitet/Pods-Kollektivitet-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Apollo-iOS/Apollo.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Apollo.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kollektivitet/Pods-Kollektivitet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C48AE8D4B3343626A510627D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Kollektivitet WatchKit Extension/Pods-Kollektivitet WatchKit Extension-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Apollo-watchOS/Apollo.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Apollo.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kollektivitet WatchKit Extension/Pods-Kollektivitet WatchKit Extension-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CED78846B4705375EA523F85 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kollektivitet WatchKit Extension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		823B880C2153F1C600F53670 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				823B88162153F1C600F53670 /* ViewController.swift in Sources */,
+				821F7D612157AB0000D8B332 /* String+Extensions.swift in Sources */,
+				821F7D632157AB0000D8B332 /* UIColor+Extensions.swift in Sources */,
+				821F7D652157AB0000D8B332 /* Date+Extensions.swift in Sources */,
+				823B885C2153F77700F53670 /* JourneyPlannerAPI.swift in Sources */,
+				823B885E2153F77700F53670 /* StopPlaceAPI.swift in Sources */,
+				821F7D5F2157AB0000D8B332 /* DateFormatter+Extensions.swift in Sources */,
 				823B88142153F1C600F53670 /* AppDelegate.swift in Sources */,
+				821F7D682157AB4100D8B332 /* Style.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,9 +543,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				821F7D622157AB0000D8B332 /* String+Extensions.swift in Sources */,
 				823B88392153F1C900F53670 /* ExtensionDelegate.swift in Sources */,
-				823B88372153F1C900F53670 /* InterfaceController.swift in Sources */,
+				821F7D572157A92800D8B332 /* DepartureRow.swift in Sources */,
 				823B883B2153F1C900F53670 /* ComplicationController.swift in Sources */,
+				823B88642153F9D300F53670 /* DepartureLocationRow.swift in Sources */,
+				821F7D692157AB4100D8B332 /* Style.swift in Sources */,
+				821F7D6C2157ACF200D8B332 /* DepartureService.swift in Sources */,
+				821F7D662157AB0000D8B332 /* Date+Extensions.swift in Sources */,
+				823B885F2153F77700F53670 /* StopPlaceAPI.swift in Sources */,
+				821F7D552157A8E600D8B332 /* DeparturesListInterfaceController.swift in Sources */,
+				823B88612153F86F00F53670 /* DepartureLocationChooserInterfaceController.swift in Sources */,
+				821F7D642157AB0000D8B332 /* UIColor+Extensions.swift in Sources */,
+				823B885D2153F77700F53670 /* JourneyPlannerAPI.swift in Sources */,
+				821F7D602157AB0000D8B332 /* DateFormatter+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,14 +576,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		823B88172153F1C600F53670 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				823B88182153F1C600F53670 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		823B881C2153F1C800F53670 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -465,6 +713,7 @@
 		};
 		823B88422153F1C900F53670 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A715774D557D36978AC70D14 /* Pods-Kollektivitet WatchKit Extension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
@@ -487,6 +736,7 @@
 		};
 		823B88432153F1C900F53670 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEBC0E4BD8A6157CC25CAE7F /* Pods-Kollektivitet WatchKit Extension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
@@ -547,6 +797,7 @@
 		};
 		823B884A2153F1C900F53670 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88D27697D626D62FFD0EA636 /* Pods-Kollektivitet.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -565,6 +816,7 @@
 		};
 		823B884B2153F1C900F53670 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1D638523CFB384E6D0251D2 /* Pods-Kollektivitet.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

@@ -1,0 +1,8 @@
+query Stop($query: String!) {
+    stopPlace(query: $query, municipalityReference: ["KVE:TopographicPlace:0301"]) {
+        id
+        name {
+            value
+        }
+    }
+}

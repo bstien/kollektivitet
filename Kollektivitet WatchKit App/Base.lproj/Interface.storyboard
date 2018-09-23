@@ -1,15 +1,96 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="11134" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="14313.18" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="L4Z-JJ-9sx">
+    <device id="watch38" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="11055"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="14238.10"/>
     </dependencies>
     <scenes>
-        <!--Interface Controller-->
-        <scene sceneID="aou-V4-d1y">
+        <!--Departure Location Chooser Interface Controller-->
+        <scene sceneID="hDw-4V-m8B">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModuleProvider="target"/>
+                <controller id="L4Z-JJ-9sx" customClass="DepartureLocationChooserInterfaceController" customModule="Kollektivitet_WatchKit_Extension">
+                    <items>
+                        <table alignment="left" id="urs-ii-ds1">
+                            <items>
+                                <tableRow identifier="DepartureLocationRow" id="diL-tk-54V" customClass="DepartureLocationRow" customModule="Kollektivitet_WatchKit_Extension">
+                                    <group key="rootItem" width="1" alignment="left" id="T3X-EN-N8I">
+                                        <items>
+                                            <label alignment="center" verticalAlignment="center" text="Label" textAlignment="center" numberOfLines="0" id="aqf-bP-G5R"/>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="titleLabel" destination="aqf-bP-G5R" id="mZP-5d-i9u"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="table" destination="urs-ii-ds1" id="ufs-aD-ebT"/>
+                    </connections>
+                </controller>
             </objects>
+        </scene>
+        <!--DeparturesListInterfaceController-->
+        <scene sceneID="NqV-ey-4vM">
+            <objects>
+                <controller identifier="DeparturesListInterfaceController" id="69l-7e-ujI" customClass="DeparturesListInterfaceController" customModule="Kollektivitet_WatchKit_Extension">
+                    <items>
+                        <table alignment="left" id="wam-X3-8UY">
+                            <items>
+                                <tableRow identifier="DepartureRow" id="Eci-XC-J8x" customClass="DepartureRow" customModule="Kollektivitet_WatchKit_Extension">
+                                    <group key="rootItem" width="1" height="38" alignment="left" layout="vertical" spacing="0.0" id="SgO-Bt-uGf">
+                                        <items>
+                                            <group width="1" alignment="left" id="EIn-JW-hXp" userLabel="Line title">
+                                                <items>
+                                                    <label alignment="left" text="Vestli via Majorstuen" textAlignment="left" minimumScaleFactor="0.80000000000000004" id="lPj-W6-TJ2">
+                                                        <fontDescription key="font" type="system" pointSize="14"/>
+                                                    </label>
+                                                </items>
+                                            </group>
+                                            <group width="1" alignment="left" verticalAlignment="bottom" id="F5c-Ea-14W" userLabel="Content">
+                                                <items>
+                                                    <group width="0.40000000000000002" alignment="left" verticalAlignment="bottom" id="Au6-q6-lIi" userLabel="Line">
+                                                        <items>
+                                                            <imageView width="0.29999999999999999" height="1" alignment="left" image="metro" contentMode="scaleAspectFit" id="Eeo-IQ-DIb">
+                                                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                            </imageView>
+                                                            <label alignment="left" text="23X" id="88D-Yr-8R2"/>
+                                                        </items>
+                                                    </group>
+                                                    <group alignment="right" id="Y4g-PY-SeH" userLabel="Departures at">
+                                                        <items>
+                                                            <label alignment="left" text="12 min" textAlignment="right" minimumScaleFactor="0.5" id="jRt-X1-aCv">
+                                                                <fontDescription key="font" type="system" pointSize="18"/>
+                                                            </label>
+                                                        </items>
+                                                    </group>
+                                                </items>
+                                                <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="0.0"/>
+                                            </group>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="departuresAtLabel" destination="jRt-X1-aCv" id="usf-F9-QlD"/>
+                                        <outlet property="lineNameLabel" destination="lPj-W6-TJ2" id="wI9-j4-rSx"/>
+                                        <outlet property="lineNumberLabel" destination="88D-Yr-8R2" id="SFl-1F-O8s"/>
+                                        <outlet property="transportTypeImage" destination="Eeo-IQ-DIb" id="gdi-Z3-mr8"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                        <label alignment="center" verticalAlignment="center" text="Laster …" numberOfLines="0" id="G4y-k6-Ft9"/>
+                    </items>
+                    <connections>
+                        <outlet property="statusLabel" destination="G4y-k6-Ft9" id="NlC-2K-j9m"/>
+                        <outlet property="table" destination="wam-X3-8UY" id="M0e-es-Ep2"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="334" y="28"/>
         </scene>
     </scenes>
 </document>
